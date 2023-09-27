@@ -14,19 +14,21 @@ import accesoADatos.Conexion;
 import accesoADatos.MateriaData;
 import entidades.Alumno;
 import entidades.Materia;
+import vistas.MenuPrincipal;
 
 /**
  *
  * @author usuario
  */
-public class UniversidadGrupo2 {
+public class UniversidadGrupo24 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Conexion.getConexion();
+        MenuPrincipal vistas=new MenuPrincipal();
+        vistas.show();
 
     }
     
